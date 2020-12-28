@@ -7,6 +7,7 @@ github.com/Masterminds/semver/v3
 # github.com/Masterminds/sprig v2.22.0+incompatible
 github.com/Masterminds/sprig
 # github.com/Masterminds/sprig/v3 v3.2.0
+## explicit
 github.com/Masterminds/sprig/v3
 # github.com/felixge/httpsnoop v1.0.1
 github.com/felixge/httpsnoop
@@ -18,6 +19,7 @@ github.com/gobuffalo/logger
 github.com/gobuffalo/packd
 github.com/gobuffalo/packd/internal/takeon/github.com/markbates/errx
 # github.com/gobuffalo/packr/v2 v2.8.1
+## explicit
 github.com/gobuffalo/packr/v2
 github.com/gobuffalo/packr/v2/file
 github.com/gobuffalo/packr/v2/file/resolver
@@ -27,6 +29,7 @@ github.com/gobuffalo/packr/v2/plog
 # github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b
 github.com/golang/glog
 # github.com/golang/protobuf v1.4.3
+## explicit
 github.com/golang/protobuf/jsonpb
 github.com/golang/protobuf/proto
 github.com/golang/protobuf/protoc-gen-go/descriptor
@@ -36,15 +39,19 @@ github.com/golang/protobuf/protoc-gen-go/plugin
 # github.com/google/uuid v1.1.2
 github.com/google/uuid
 # github.com/gorilla/handlers v1.5.1
+## explicit
 github.com/gorilla/handlers
 # github.com/gorilla/mux v1.8.0
+## explicit
 github.com/gorilla/mux
 # github.com/grpc-ecosystem/grpc-gateway v1.16.0
+## explicit
 github.com/grpc-ecosystem/grpc-gateway/internal/casing
 github.com/grpc-ecosystem/grpc-gateway/protoc-gen-grpc-gateway/descriptor
 github.com/grpc-ecosystem/grpc-gateway/protoc-gen-grpc-gateway/httprule
 github.com/grpc-ecosystem/grpc-gateway/utilities
 # github.com/huandu/xstrings v1.3.2
+## explicit
 github.com/huandu/xstrings
 # github.com/imdario/mergo v0.3.11
 github.com/imdario/mergo
@@ -78,6 +85,7 @@ golang.org/x/crypto/ssh/terminal
 golang.org/x/sys/unix
 golang.org/x/sys/windows
 # google.golang.org/genproto v0.0.0-20201214200347-8c77b98c765d
+## explicit
 google.golang.org/genproto/googleapis/api/annotations
 # google.golang.org/protobuf v1.24.0
 google.golang.org/protobuf/encoding/protojson
@@ -115,4 +123,5 @@ google.golang.org/protobuf/types/pluginpb
 # gopkg.in/yaml.v2 v2.3.0
 gopkg.in/yaml.v2
 # moul.io/protoc-gen-gotemplate v1.11.0
+## explicit
 moul.io/protoc-gen-gotemplate/helpers
