@@ -1,4 +1,4 @@
-package pgghelpers
+package helpers
 
 import (
 	"encoding/json"
@@ -170,6 +170,7 @@ var ProtoHelpersFuncMap = template.FuncMap{
 	"cppTypeWithPackage":           cppTypeWithPackage,
 	"rustType":                     rustType,
 	"rustTypeWithPackage":          rustTypeWithPackage,
+	"isFieldEnum":                  isFieldEnum,
 }
 
 var pathMap map[interface{}]*descriptor.SourceCodeInfo_Location
@@ -702,6 +703,14 @@ func isFieldMessageTimeStamp(f *descriptor.FieldDescriptorProto) bool {
 
 func isFieldMessage(f *descriptor.FieldDescriptorProto) bool {
 	if f.Type != nil && *f.Type == descriptor.FieldDescriptorProto_TYPE_MESSAGE {
+		return true
+	}
+
+	return false
+}
+
+func isFieldEnum(f *descriptor.FieldDescriptorProto) bool {
+	if f.Type != nil && *f.Type == descriptor.FieldDescriptorProto_TYPE_ENUM {
 		return true
 	}
 

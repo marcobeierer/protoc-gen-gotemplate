@@ -5,100 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="672ed9fb-e8d7-409f-80aa-b9ac5daedfcf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/encoder.go" beforeDir="false" afterPath="$PROJECT_DIR$/encoder.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/helpers/helpers.go" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/helpers.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/semver/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Masterminds/semver/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/semver/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Masterminds/semver/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/semver/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Masterminds/semver/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/semver/constraints.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Masterminds/semver/constraints.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/semver/doc.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Masterminds/semver/doc.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/semver/version.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Masterminds/semver/version.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/crypto.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/crypto.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/date.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/date.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/defaults.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/defaults.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/dict.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/dict.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/doc.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/doc.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/functions.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/functions.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/glide.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/glide.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/glide.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/list.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/list.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/numeric.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/numeric.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/regex.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/regex.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/strings.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/strings.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/aokoli/goutils/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/aokoli/goutils/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/aokoli/goutils/appveyor.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/aokoli/goutils/randomstringutils.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/aokoli/goutils/stringutils.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/aokoli/goutils/wordutils.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/clone.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/decode.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/encode.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/equal.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/extensions.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/extensions.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/lib.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/message_set.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/pointer_reflect.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/pointer_unsafe.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/properties.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/properties.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/text.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/proto/text_parser.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/protoc-gen-go/descriptor/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/protoc-gen-go/descriptor/descriptor.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/protoc-gen-go/descriptor/descriptor.pb.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/protoc-gen-go/generator/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/protoc-gen-go/generator/generator.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/protoc-gen-go/generator/generator.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/protoc-gen-go/plugin/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/protoc-gen-go/plugin/plugin.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/protoc-gen-go/plugin/plugin.pb.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/golang/protobuf/protoc-gen-go/plugin/plugin.pb.golden" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/context/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/context/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/context/context.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/context/doc.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/handlers/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/gorilla/handlers/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/handlers/compress.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/gorilla/handlers/compress.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/handlers/cors.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/gorilla/handlers/cors.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/handlers/handlers.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/gorilla/handlers/handlers.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/handlers/proxy_headers.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/gorilla/handlers/proxy_headers.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/handlers/recovery.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/gorilla/handlers/recovery.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/context_gorilla.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/context_native.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/doc.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/doc.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/mux.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/mux.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/regexp.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/regexp.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/route.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/route.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/grpc-ecosystem/grpc-gateway/protoc-gen-grpc-gateway/descriptor/registry.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/grpc-ecosystem/grpc-gateway/protoc-gen-grpc-gateway/descriptor/registry.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/grpc-ecosystem/grpc-gateway/protoc-gen-grpc-gateway/descriptor/services.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/grpc-ecosystem/grpc-gateway/protoc-gen-grpc-gateway/descriptor/services.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/grpc-ecosystem/grpc-gateway/protoc-gen-grpc-gateway/descriptor/types.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/grpc-ecosystem/grpc-gateway/protoc-gen-grpc-gateway/descriptor/types.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/grpc-ecosystem/grpc-gateway/protoc-gen-grpc-gateway/httprule/parse.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/grpc-ecosystem/grpc-gateway/protoc-gen-grpc-gateway/httprule/parse.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/grpc-ecosystem/grpc-gateway/utilities/pattern.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/grpc-ecosystem/grpc-gateway/utilities/pattern.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/huandu/xstrings/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/huandu/xstrings/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/huandu/xstrings/common.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/huandu/xstrings/common.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/huandu/xstrings/convert.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/huandu/xstrings/convert.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/huandu/xstrings/count.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/huandu/xstrings/count.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/huandu/xstrings/doc.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/huandu/xstrings/doc.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/huandu/xstrings/format.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/huandu/xstrings/format.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/huandu/xstrings/manipulate.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/huandu/xstrings/manipulate.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/huandu/xstrings/translate.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/huandu/xstrings/translate.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/imdario/mergo/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/imdario/mergo/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/imdario/mergo/doc.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/imdario/mergo/doc.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/imdario/mergo/map.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/imdario/mergo/map.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/imdario/mergo/merge.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/imdario/mergo/merge.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/imdario/mergo/mergo.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/imdario/mergo/mergo.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/satori/go.uuid/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/satori/go.uuid/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/satori/go.uuid/uuid.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/AUTHORS" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/AUTHORS" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/CONTRIBUTORS" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/CONTRIBUTORS" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/scrypt/scrypt.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/golang.org/x/crypto/scrypt/scrypt.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/google.golang.org/genproto/googleapis/api/annotations/annotations.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/google.golang.org/genproto/googleapis/api/annotations/annotations.pb.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/google.golang.org/genproto/googleapis/api/annotations/http.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/google.golang.org/genproto/googleapis/api/annotations/http.pb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/semver/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/semver/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/semver/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/semver/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/semver/appveyor.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/semver/collection.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/semver/constraints.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/semver/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/semver/version.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/crypto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/date.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/defaults.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/dict.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/functions.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/glide.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/list.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/numeric.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/reflect.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/regex.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/semver.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/strings.go" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/modules.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/modules.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -128,6 +67,22 @@
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.Dockerfile" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

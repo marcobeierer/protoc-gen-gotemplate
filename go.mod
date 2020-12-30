@@ -8,8 +8,8 @@ require (
 	github.com/gorilla/mux v1.8.0
 	github.com/grpc-ecosystem/grpc-gateway v1.16.0
 	github.com/huandu/xstrings v1.3.2
+	github.com/mitchellh/reflectwalk v1.0.1 // indirect
 	google.golang.org/genproto v0.0.0-20201214200347-8c77b98c765d
-	moul.io/protoc-gen-gotemplate v1.11.0
 )
 
 go 1.15

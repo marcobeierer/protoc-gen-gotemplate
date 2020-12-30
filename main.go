@@ -1,4 +1,4 @@
-package main // import "moul.io/protoc-gen-gotemplate"
+package main
 
 import (
 	"io/ioutil"
@@ -8,10 +8,10 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/protoc-gen-go/generator"
-	plugin_go "github.com/golang/protobuf/protoc-gen-go/plugin"
+	plugin "github.com/golang/protobuf/protoc-gen-go/plugin"
 	ggdescriptor "github.com/grpc-ecosystem/grpc-gateway/protoc-gen-grpc-gateway/descriptor"
 
-	pgghelpers "moul.io/protoc-gen-gotemplate/helpers"
+	"github.com/marcobeierer/protoc-gen-gotemplate/helpers"
 )
 
 var (
@@ -100,8 +100,8 @@ func main() {
 		}
 	}
 
-	tmplMap := make(map[string]*plugin_go.CodeGeneratorResponse_File)
-	concatOrAppend := func(file *plugin_go.CodeGeneratorResponse_File) {
+	tmplMap := make(map[string]*plugin.CodeGeneratorResponse_File)
+	concatOrAppend := func(file *plugin.CodeGeneratorResponse_File) {
 		if val, ok := tmplMap[file.GetName()]; ok {
 			*val.Content += file.GetContent()
 		} else {
@@ -112,7 +112,7 @@ func main() {
 
 	if singlePackageMode {
 		registry = ggdescriptor.NewRegistry()
-		pgghelpers.SetRegistry(registry)
+		helpers.SetRegistry(registry)
 		if err = registry.Load(g.Request); err != nil {
 			g.Error(err, "registry: failed to load the request")
 		}
