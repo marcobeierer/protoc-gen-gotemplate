@@ -7,38 +7,7 @@
     <list default="true" id="672ed9fb-e8d7-409f-80aa-b9ac5daedfcf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/encoder.go" beforeDir="false" afterPath="$PROJECT_DIR$/encoder.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helpers/helpers.go" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/helpers.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/semver/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/semver/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/semver/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/semver/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/semver/appveyor.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/semver/collection.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/semver/constraints.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/semver/doc.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/semver/version.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/crypto.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/date.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/defaults.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/dict.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/doc.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/functions.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/glide.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/list.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/numeric.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/reflect.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/regex.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/semver.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Masterminds/sprig/strings.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/modules.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/modules.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/protoc-gen-gotemplate/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +38,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cmd/protoc-gen-gotemplate" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
       <deployment type="dockerfile">
@@ -97,6 +71,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>

@@ -11,6 +11,7 @@ import (
 	plugin "github.com/golang/protobuf/protoc-gen-go/plugin"
 	ggdescriptor "github.com/grpc-ecosystem/grpc-gateway/protoc-gen-grpc-gateway/descriptor"
 
+	protoc_gen_gotemplate "github.com/marcobeierer/protoc-gen-gotemplate"
 	"github.com/marcobeierer/protoc-gen-gotemplate/helpers"
 )
 
@@ -126,7 +127,7 @@ func main() {
 					g.Error(err, "registry: failed to lookup file %q", file.GetName())
 				}
 			}
-			encoder := NewGenericTemplateBasedEncoder(templateDir, file, debug, destinationDir)
+			encoder := protoc_gen_gotemplate.NewGenericTemplateBasedEncoder(templateDir, file, debug, destinationDir)
 			for _, tmpl := range encoder.Files() {
 				concatOrAppend(tmpl)
 			}
@@ -136,7 +137,7 @@ func main() {
 
 		if fileMode {
 			if s := file.GetService(); s != nil && len(s) > 0 {
-				encoder := NewGenericTemplateBasedEncoder(templateDir, file, debug, destinationDir)
+				encoder := protoc_gen_gotemplate.NewGenericTemplateBasedEncoder(templateDir, file, debug, destinationDir)
 				for _, tmpl := range encoder.Files() {
 					concatOrAppend(tmpl)
 				}
@@ -146,7 +147,7 @@ func main() {
 		}
 
 		for _, service := range file.GetService() {
-			encoder := NewGenericServiceTemplateBasedEncoder(templateDir, service, file, debug, destinationDir)
+			encoder := protoc_gen_gotemplate.NewGenericServiceTemplateBasedEncoder(templateDir, service, file, debug, destinationDir)
 			for _, tmpl := range encoder.Files() {
 				concatOrAppend(tmpl)
 			}
